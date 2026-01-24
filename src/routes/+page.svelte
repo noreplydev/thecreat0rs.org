@@ -128,11 +128,14 @@
         <div
           class="group border-b border-brand-fg/10 pb-5 md:pb-8 flex flex-col md:flex-row md:items-end justify-between hover:border-brand-fg transition-colors duration-500"
         >
-          <h3
-            class="syne text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter uppercase leading-none"
-          >
-            {i18n.t(`section.services.${id}`)}
-          </h3>
+          <div class="flex items-center gap-5 pl-4">
+            <div class="h-2 w-2 border border-brand-fg bg-brand-fg"></div>
+            <h3
+              class="syne text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter uppercase leading-none"
+            >
+              {i18n.t(`section.services.${id}`)}
+            </h3>
+          </div>
           <span
             class="dm-mono text-base md:text-xl opacity-40 group-hover:opacity-100 transition-opacity mt-2 md:mt-0 font-light"
           >
